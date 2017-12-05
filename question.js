@@ -5,14 +5,14 @@ class Question {
     this.save();
   }
 
-  // static All() {
-  //   return this._All;
-  // }
-  // 
-  // save() {
-  //   return this.constructor._All.push(this);
-  // }
-  // 
+  static All() {
+    return this._All;
+  }
+
+  save() {
+    return this.constructor._All.push(this);
+  }
+
   // static Find(questionIndex) {
   //   return this.All()[questionIndex - 1];
   //   })
