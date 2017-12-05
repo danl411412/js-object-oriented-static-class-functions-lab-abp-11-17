@@ -13,10 +13,9 @@ class Question {
     return this.constructor._All.push(this);
   }
 
-  // static Find(questionIndex) {
-  //   return this.All()[questionIndex - 1];
-  //   })
-  // }
+  static Find(questionIndex) {
+    return this.All()[questionIndex - 1];
+  }
 }
 
 Question._All = [];
